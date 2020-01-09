@@ -1,0 +1,17 @@
+body {
+	overflow: hidden;
+}
+#aboutPic {
+	position: absolute;
+	left: 15%;
+	top: -5%;
+	z-index: -2;
+}
+
+#about {
+	position: absolute;
+	left: 5%;
+	top: 35%;
+	color: #ffffff;
+	font-size: 45px;
+}
