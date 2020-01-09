@@ -19,10 +19,8 @@ class Navbar extends Component {
 			// 	</li>
 			// </ul>
 
-			<nav className="navbar navbar-expand-lg navbar-light bg-light">
-				<Link className="navbar-brand" to="#">
-					Navbar
-				</Link>
+			<nav className="navbar navbar-expand-lg navbar-light bg-light" id="navbarMain">
+				<Link className="navbar-brand" to="#" />
 				<button
 					className="navbar-toggler"
 					type="button"
