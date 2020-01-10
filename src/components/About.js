@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Myface from '../dograma.png';
-import style from '../components/about.css';
+import style from './about.css';
 import Navbar from '../componentsTools/Navbar';
 
 class About extends Component {

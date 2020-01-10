@@ -1,0 +1,37 @@
+#project1 {
+	width: 90%;
+	height: 90%;
+}
+#project2 {
+	width: 90%;
+	height: 90%;
+}
+#project3 {
+	width: 90%;
+	height: 90%;
+}
+#project4 {
+	width: 90%;
+	height: 90%;
+}
+#project5 {
+	width: 90%;
+	height: 90%;
+}
+#project6 {
+	width: 90%;
+	height: 90%;
+}
+#portfolioTitle {
+	color: white;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+}
+#carouselExampleControls {
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+}
