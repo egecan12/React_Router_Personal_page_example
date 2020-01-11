@@ -1,13 +1,29 @@
 import React, { Component } from 'react';
 import project1 from '../project1.jpg';
 import style from './portfolio.css';
+import LogoBehance from '../behancelogo.svg';
+import LogoGithub from '../githubLogo.svg';
+import LogoLinkedin from '../linkedin.svg';
+import LogoCodepen from '../codepen.svg';
+import { Link } from 'react-router-dom';
 
 export default class Portfolio extends Component {
 	render() {
 		return (
 			<div>
 				<h1 id="portfolioTitle">For more info take a look at my behance </h1>
-
+				<a href="https://www.behance.net/egecankahyaoglu">
+					<img src={LogoBehance} alt="Egeface" id="logoBehance" />
+				</a>
+				<a href="https://github.com/egecan12">
+					<img src={LogoGithub} alt="Egeface" id="logoGithub" />
+				</a>
+				<a href="https://codepen.io/egecan12">
+					<img src={LogoCodepen} alt="Egeface" id="logoCodepen" />
+				</a>
+				<a href="https://www.linkedin.com/in/egecan-kahyaoglu/">
+					<img src={LogoLinkedin} alt="Egeface" id="logoLinkedin" />
+				</a>
 				<div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
 					<div className="carousel-inner">
 						<div className="carousel-item active">

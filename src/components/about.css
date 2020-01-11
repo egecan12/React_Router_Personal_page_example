@@ -3,9 +3,10 @@ body {
 }
 #aboutPic {
 	position: absolute;
-	left: 15%;
-	top: -5%;
+	left: 35%;
+	top: 15%;
 	z-index: -2;
+	width: 80%;
 }
 
 #about {
@@ -15,3 +16,17 @@ body {
 	color: #ffffff;
 	font-size: 45px;
 }
+
+/* Mobile styles below */
+@media only screen and (max-width: 768px) {
+	#aboutPic {
+		width: 400px;
+		height: 200px;
+		left: 10%;
+	}
+	#about {
+		font-size: 30px;
+	}
+}
+
+/* Mobile styles below */

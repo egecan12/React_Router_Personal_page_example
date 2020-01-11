@@ -35,3 +35,26 @@
 	top: 40%;
 	left: 40%;
 }
+
+#logoBehance {
+	position: absolute;
+	top: 40%;
+	left: 10%;
+}
+#logoGithub {
+	position: absolute;
+	top: 40%;
+	left: 15%;
+}
+#logoCodepen {
+	position: absolute;
+	top: 40%;
+	left: 20%;
+}
+#logoLinkedin {
+	position: absolute;
+	top: 39%;
+	left: 23%;
+	width: 90px;
+	height: 65px;
+}
