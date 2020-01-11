@@ -13,7 +13,7 @@ export default class Portfolio extends Component {
 	render() {
 		return (
 			<div>
-				<h1 id="portfolioTitle">For more info take a look at my behance </h1>
+				<h1 id="portfolioTitle">For more info take a look at my behance page </h1>
 				<a href="https://www.behance.net/egecankahyaoglu">
 					<img src={LogoBehance} alt="Egeface" id="logoBehance" />
 				</a>
