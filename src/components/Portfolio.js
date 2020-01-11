@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import project1 from '../project1.jpg';
+import project2 from '../eyeball.jpg';
+import project3 from '../game.png';
 import style from './portfolio.css';
 import LogoBehance from '../behancelogo.svg';
 import LogoGithub from '../githubLogo.svg';
@@ -30,10 +32,10 @@ export default class Portfolio extends Component {
 							<img src={project1} alt="project1" id="project1" />
 						</div>
 						<div className="carousel-item">
-							<img src={project1} alt="project2" id="project2" />
+							<img src={project2} alt="project2" id="project2" />
 						</div>
 						<div className="carousel-item">
-							<img src={project1} alt="project3" id="project3" />
+							<img src={project3} alt="project3" id="project3" />
 						</div>
 						<div className="carousel-item">
 							<img src={project1} alt="project4" id="project4" />

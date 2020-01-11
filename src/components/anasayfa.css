@@ -3,6 +3,10 @@
 	position: absolute;
 	top: 25%;
 	left: 10%;
+	opacity: 1;
+	animation-name: rightFadeInOut;
+	animation-fill-mode: forwards;
+	animation-duration: 3s;
 }
 
 #title2 {
@@ -10,13 +14,19 @@
 	position: absolute;
 	top: 45%;
 	left: 15%;
+	animation-name: rightFadeInOut2;
+	animation-fill-mode: forwards;
+	animation-duration: 3s;
 }
 
 #name {
 	color: white;
 	position: absolute;
 	top: 65%;
-	left: 25%;
+	left: 10%;
+	animation-name: rightFadeInOut3;
+	animation-fill-mode: forwards;
+	animation-duration: 3s;
 }
 
 #ball1 {
@@ -58,5 +68,45 @@
 	}
 	to {
 		transform: rotate(360deg);
+	}
+}
+@keyframes rightFadeInOut {
+	0% {
+		position: absolute;
+		top: 25%;
+		left: 10%;
+	}
+
+	100% {
+		position: absolute;
+		top: 25%;
+		left: 20%;
+	}
+}
+@keyframes rightFadeInOut2 {
+	0% {
+		position: absolute;
+		top: 45%;
+		left: 25%;
+	}
+
+	100% {
+		position: absolute;
+		top: 45%;
+		left: 30%;
+	}
+}
+
+@keyframes rightFadeInOut3 {
+	0% {
+		position: absolute;
+		top: 65%;
+		left: 10%;
+	}
+
+	100% {
+		position: absolute;
+		top: 65%;
+		left: 25%;
 	}
 }

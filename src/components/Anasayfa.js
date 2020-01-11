@@ -11,9 +11,7 @@ class Anasayfa extends Component {
 				<h1 id="title1">Modern Web Designs </h1>
 				<h1 id="title2">Application Development</h1>
 				<h1 id="name">Egecan Kahyaoglu</h1>
-				<img src={Logo} alt="blueball" id="ball1" />
-				<img src={Logo} alt="blueball" id="ball2" />
-				<img src={Logo} alt="blueball" id="ball3" />
+
 				<img src={logoReact} alt="react" class="App-logo" />
 			</div>
 		);
