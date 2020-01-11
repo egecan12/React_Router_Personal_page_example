@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import project1 from '../project1.jpg';
 import project2 from '../eyeball.jpg';
-import project3 from '../game.png';
+import project3 from '../1.png';
+import project4 from '../3.png';
+import project5 from '../2.png';
+
 import style from './portfolio.css';
 import LogoBehance from '../behancelogo.svg';
 import LogoGithub from '../githubLogo.svg';
@@ -29,22 +31,19 @@ export default class Portfolio extends Component {
 				<div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
 					<div className="carousel-inner">
 						<div className="carousel-item active">
-							<img src={project1} alt="project1" id="project1" />
+							<img src={project2} alt="project1" id="project1" />
 						</div>
 						<div className="carousel-item">
-							<img src={project2} alt="project2" id="project2" />
+							<img src={project5} alt="project2" id="project2" />
 						</div>
 						<div className="carousel-item">
 							<img src={project3} alt="project3" id="project3" />
 						</div>
 						<div className="carousel-item">
-							<img src={project1} alt="project4" id="project4" />
+							<img src={project4} alt="project4" id="project4" />
 						</div>
 						<div className="carousel-item">
-							<img src={project1} alt="project5" id="project5" />
-						</div>
-						<div className="carousel-item">
-							<img src={project1} alt="project6" id="project6" />
+							<img src={project5} alt="project5" id="project5" />
 						</div>
 					</div>
 					<a
