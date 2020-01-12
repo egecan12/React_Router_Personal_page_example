@@ -62,13 +62,7 @@ li a:hover {
 	}
 	body {
 		background: url(./bg.svg) no-repeat center center fixed;
-
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-		font-size: 1.2em;
+		background-size: 50%;
 	}
 }
 /* End of mobile styles */
