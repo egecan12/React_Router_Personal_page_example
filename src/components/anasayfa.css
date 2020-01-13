@@ -53,6 +53,7 @@
 	position: absolute;
 	left: 60%;
 	top: 30%;
+	height: 50vmin;
 	pointer-events: none;
 }
 

@@ -63,12 +63,6 @@ li a:hover {
 	li {
 	}
 	body {
-		display: flex !important;
-		flex-direction: column !important;
-		flex-wrap: nowrap !important;
-		justify-content: flex-start !important;
-		align-items: stretch !important;
-		align-content: stretch !important;
 	}
 }
 /* End of mobile styles */
