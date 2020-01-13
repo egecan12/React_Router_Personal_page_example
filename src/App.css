@@ -61,6 +61,9 @@ li a:hover {
 	}
 	li {
 	}
+	body {
+		background-size: cover !important;
+	}
 }
 /* End of mobile styles */
 .bg-light {
