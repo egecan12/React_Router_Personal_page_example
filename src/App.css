@@ -55,10 +55,12 @@ li a:hover {
 /* Mobile styles below */
 @media only screen and (max-width: 768px) {
 	ul {
-		display: flexbox;
+		display: flex;
 		float: right;
+		flex-direction: row !important;
 	}
 	li {
+		padding: 0.5em;
 	}
 }
 /* End of mobile styles */
