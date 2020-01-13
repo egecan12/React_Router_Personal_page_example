@@ -60,15 +60,6 @@ li a:hover {
 	}
 	li {
 	}
-	html,
-	body {
-		background: url(./bg.svg) no-repeat center center fixed;
-		-webkit-background-size: auto;
-		-moz-background-size: auto;
-		-o-background-size: auto;
-		background-size: auto;
-		min-height: 100%;
-	}
 }
 /* End of mobile styles */
 .bg-light {

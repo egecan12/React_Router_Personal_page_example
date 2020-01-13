@@ -12,7 +12,7 @@ class Anasayfa extends Component {
 				<h1 id="title2">Application Development</h1>
 				<h1 id="name">Egecan Kahyaoglu</h1>
 
-				<img src={logoReact} alt="react" class="App-logo" />
+				<img src={logoReact} alt="react" className="App-logo" />
 			</div>
 		);
 	}
