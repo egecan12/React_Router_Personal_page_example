@@ -61,16 +61,12 @@ li a:hover {
 	}
 	li {
 	}
-	body {
-		background-size: cover !important;
-	}
 }
 /* End of mobile styles */
 .bg-light {
 	color: red;
 }
 #navbarMain {
-	background-color: rgba(255, 255, 255, 0) !important;
 }
 
 .nav-link:hover {
