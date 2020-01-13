@@ -33,39 +33,6 @@ li a:hover {
 	text-decoration: none;
 } */
 
-/* Desktop ONLY styles */
-@media only screen and (min-width: 992px) {
-	ul {
-		position: relative;
-		left: 80%;
-		right: 1%;
-	}
-}
-/* End of desktop ONLY styles */
-
-/* Tablet styles below */
-@media only screen and (max-width: 992px) {
-	ul {
-		display: flexbox;
-		float: right;
-	}
-}
-/* End of tablet styles */
-
-/* Mobile styles below */
-@media only screen and (max-width: 768px) {
-	ul {
-		display: flexbox;
-		float: right;
-	}
-	li {
-	}
-	body {
-		height: 100%;
-		overflow: hidden;
-	}
-}
-/* End of mobile styles */
 .bg-light {
 	color: red;
 }
