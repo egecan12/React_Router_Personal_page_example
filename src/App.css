@@ -68,6 +68,9 @@ li a:hover {
 	}
 	li {
 	}
+	body {
+		overflow: hidden;
+	}
 }
 /* End of mobile styles */
 .bg-light {
